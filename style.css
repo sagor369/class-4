@@ -44,3 +44,12 @@
     background-color: cornflowerblue;
     height: 260px;
 }
+table th, td{
+    border: 1px solid rebeccapurple;
+    padding: 5px 10px;
+    
+}
+table {
+    border-collapse: collapse;
+    font-size: 30px;
+}
