@@ -28,14 +28,14 @@
 }
 .pact h1{
     text-align: center;
-    padding: 10px 5px;
+    padding: 20px 5px 5px;
     font-size: 40px;
     
 
 }
 .pact p{
     font-size: 20px;
-    padding:  10px;
+    padding:0 10px  10px;
     width: 35%;
     float: left;
     
@@ -52,4 +52,5 @@ table th, td{
 table {
     border-collapse: collapse;
     font-size: 30px;
+    background-color: aquamarine;
 }
