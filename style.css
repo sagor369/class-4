@@ -1,31 +1,36 @@
-.nav ul{
-    list-style: none;
-    /* display: flex; */
+nav> ul{
+    
+    display: flex;
+    padding: 10px 10px;
     
 }
 
-.nav li{
-    text-decoration: none;
-    padding:10px 10px;
+nav li{
+    
+    margin-right:10px;
+    list-style: none;
     
 }
-.nav a{
+nav li a{
     text-decoration: none;
-    
     font-size: 20px;
     color: black;
+    padding: 10px;
 }
-.nav a:hover{
+nav li:hover{
     background-color: lightslategray;
 }
-.nav {
-    width: 25%;
-    height: 100%;
-    float: left;
-    box-shadow:5px 0px 4px -2px  blueviolet;
-    margin-right: 20px;
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    padding-left: 10px;
+    background-color: lightyellow;
 
 }
+nav li:hover > .dropdown{
+    display: block;
+}
+
 .pact h1{
     text-align: center;
     padding: 20px 5px 5px;
