@@ -1,8 +1,9 @@
 nav> ul{
     
     display: flex;
-    padding: 10px 10px;
-    
+    padding: 10px 0px;
+    background-color: rgba(240, 248, 255, 0.226);
+    padding-left: 30%;
 }
 
 nav li{
@@ -13,7 +14,7 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     padding: 10px;
 }
@@ -33,21 +34,26 @@ nav li:hover > .dropdown{
 
 .pact h1{
     text-align: center;
-    padding: 20px 5px 5px;
+    padding: 0 5px 5px;
     font-size: 40px;
+    margin: 0;
+    text-transform: capitalize;
     
 
 }
 .pact p{
     font-size: 20px;
     padding:0 10px  10px;
-    width: 35%;
+    width: 47%;
     float: left;
     
 }
 .pact{
     background-color: cornflowerblue;
     height: 260px;
+}
+main{
+    margin-top: 20px;
 }
 table th, td{
     border: 1px solid rebeccapurple;
